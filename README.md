@@ -3,17 +3,17 @@
 - [2. Install Docker Desktop](#2-install-docker-desktop)
 - [3. Install Kind](#3-install-kind)
 - [4. Create a Kubernetes Cluster](#4-create-a-kubernetes-cluster)
-- [Kuberenetes Applications](#kuberenetes-applications)
-- [5. Entend Kubernetes Cluster Capabilites](#5-entend-kubernetes-cluster-capabilites)
-  - [5.1. MetalLB](#51-metallb)
-  - [5.2. Ingress](#52-ingress)
-  - [5.3. Kubernetes Gateway](#53-kubernetes-gateway)
-  - [5.4. Service Mesh - Istio](#54-service-mesh---istio)
-- [6. Observability](#6-observability)
-  - [6.1. Logging](#61-logging)
-  - [6.2. Monitoring](#62-monitoring)
-  - [6.3. Tracing](#63-tracing)
-- [7. References](#7-references)
+- [5. Kuberenetes Applications](#5-kuberenetes-applications)
+- [6. Entend Kubernetes Cluster Capabilites](#6-entend-kubernetes-cluster-capabilites)
+  - [6.1. MetalLB](#61-metallb)
+  - [6.2. Ingress](#62-ingress)
+  - [6.3. Kubernetes Gateway](#63-kubernetes-gateway)
+  - [6.4. Service Mesh - Istio](#64-service-mesh---istio)
+- [7. Observability](#7-observability)
+  - [7.1. Logging](#71-logging)
+  - [7.2. Monitoring](#72-monitoring)
+  - [7.3. Tracing](#73-tracing)
+- [8. References](#8-references)
 
 
 # 1. Workshop: Cloud Native Essentials for Beginners
@@ -38,44 +38,44 @@ A number of lightweight tools are available that support a [Kubernetes](https://
 - [Kind Cluster Management](./installation/kind/kind-cluster-management.md)
 
 
-# Kuberenetes Applications
+# 5. Kuberenetes Applications
 - [Kuberenetes Applications](./docs/kubernetes-applications/README.md)
   - [A Simple Web Application Server in Kubernetes](./docs/kubernetes-applications/first-simple-application/README.md)
 
 
-# 5. Entend Kubernetes Cluster Capabilites
+# 6. Entend Kubernetes Cluster Capabilites
 
-## 5.1. MetalLB
+## 6.1. MetalLB
 
-## 5.2. Ingress
+## 6.2. Ingress
 
 Ref:
 - https://medium.com/groupon-eng/loadbalancer-services-using-kubernetes-in-docker-kind-694b4207575d
 
 
-## 5.3. Kubernetes Gateway
+## 6.3. Kubernetes Gateway
 
-## 5.4. Service Mesh - Istio
+## 6.4. Service Mesh - Istio
 
 
-# 6. Observability
+# 7. Observability
 
-## 6.1. Logging
+## 7.1. Logging
 - [Install Elastic Cloud on Kubernetes](./installation/elastic-cloud/elastic-cloud-kubernetes-installation.md)
 - [Install Fluent-bit](./installation/fluent-bit/fluent-bit-installation.md)
 
-## 6.2. Monitoring
+## 7.2. Monitoring
 - [Prometheus Operator Deployment](./installation/prometheus/prometheus-install.md)
 
 
-## 6.3. Tracing
+## 7.3. Tracing
 
 
 
 
 
 
-# 7. References
+# 8. References
 - https://docs.docker.com/get-docker/
 - https://docs.docker.com/desktop/install/windows-install/
 - https://kind.sigs.k8s.io/docs/user/using-wsl2/
