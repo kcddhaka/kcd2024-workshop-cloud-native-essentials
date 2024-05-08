@@ -13,7 +13,10 @@
   - [7.1. Logging](#71-logging)
   - [7.2. Monitoring](#72-monitoring)
   - [7.3. Tracing](#73-tracing)
-- [8. References](#8-references)
+  - [7.4. Telemetry](#74-telemetry)
+- [8. Build Container Apllication from Source Code](#8-build-container-apllication-from-source-code)
+- [9. CNCF Certification](#9-cncf-certification)
+- [10. References](#10-references)
 
 
 # 1. Workshop: Cloud Native Essentials for Beginners
@@ -47,6 +50,9 @@ A number of lightweight tools are available that support a [Kubernetes](https://
 
 ## 6.1. MetalLB
 
+Ref: 
+- https://metallb.universe.tf/
+
 ## 6.2. Ingress
 
 Ref:
@@ -55,8 +61,13 @@ Ref:
 
 ## 6.3. Kubernetes Gateway
 
-## 6.4. Service Mesh - Istio
+Ref:
+- https://gateway-api.sigs.k8s.io/
 
+
+## 6.4. Service Mesh - Istio
+Ref:
+- https://istio.io/
 
 # 7. Observability
 
@@ -70,12 +81,38 @@ Ref:
 
 ## 7.3. Tracing
 
+Ref:
+- https://www.jaegertracing.io/
+
+
+## 7.4. Telemetry
+
+Ref:
+- https://opentelemetry.io/
+
+
+# 8. Build Container Apllication from Source Code
+
+- [Build a simple application](./docs/build-container-application/README.md)
+
+
+# 9. CNCF Certification
+
+- Kubernetes and Cloud Native Associate (KCNA)
+- Kubernetes and Cloud Security Associate (KCSA)
+- Certified Kubernetes Administrator (CKA)
+- Certified Kubernetes Application Developer (CKAD)
+- Certified Kubernetes Security Specialist (CKS)
+
+Ref:
+- https://www.cncf.io/training/certification/
 
 
 
 
-
-# 8. References
+# 10. References
 - https://docs.docker.com/get-docker/
 - https://docs.docker.com/desktop/install/windows-install/
 - https://kind.sigs.k8s.io/docs/user/using-wsl2/
+- https://landscape.cncf.io/
+- https://www.cncf.io/training/certification/
