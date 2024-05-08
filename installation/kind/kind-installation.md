@@ -4,9 +4,8 @@
   - [1.2. Kind on MAC-OS](#12-kind-on-mac-os)
   - [1.3. Kind on Windows](#13-kind-on-windows)
   - [1.4. Kind on Linux](#14-kind-on-linux)
-- [2. Bash Auto Complete](#2-bash-auto-complete)
-- [3. logout and login again](#3-logout-and-login-again)
-- [4. References](#4-references)
+  - [1.5. Bash Auto Complete](#15-bash-auto-complete)
+- [2. References](#2-references)
 
 
 # 1. Kind Installation
@@ -60,7 +59,7 @@ sudo mv ./kind /usr/local/bin/kind
 
 
 
-# 2. Bash Auto Complete
+## 1.5. Bash Auto Complete
 
 ```bash
 source <(kubectl completion bash)
@@ -70,18 +69,11 @@ vi /etc/bash.bashrc
 alias k=kubectl
 complete -o default -F __start_kubectl k
 
-# 3. logout and login again
-```- [Kind Installation](#kind-installation)
-  - [Kind Design Architecture](#kind-design-architecture)
-  - [Kind on MAC-OS](#kind-on-mac-os)
-  - [Kind on Windows](#kind-on-windows)
-  - [Kind on Linux](#kind-on-linux)
-- [5. Bash Auto Complete](#5-bash-auto-complete)
-- [References](#references)
+# logout and login again
+```
 
 
-
-
-# 4. References
+# 2. References
 - https://kind.sigs.k8s.io/docs/user/quick-start/
 - https://kind.sigs.k8s.io/docs/design/initial/
+- https://kubernetes.io/docs/reference/kubectl/quick-reference/

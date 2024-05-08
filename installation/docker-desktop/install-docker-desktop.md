@@ -2,7 +2,7 @@
 
 ## Docker Desktop for Windows 
 
-Kind can run using Windows Subsystem for Linux 2 (WSL2) on Windows 10 onwards. [Details procedure can be found here](https://kind.sigs.k8s.io/docs/user/using-wsl2/). 
+Kind can run using Windows Subsystem for Linux 2 (WSL2) on Windows 10 onwards. [Details procedure can be found here](https://kind.sigs.k8s.io/docs/user/using-wsl2/). However, docker desktop installer will install WSL2 as part of following procedure. 
 
 
 Follow below steps to complete the docker desktop installation: 
@@ -18,9 +18,15 @@ Follow below steps to complete the docker desktop installation:
 - Skip survey button (based on your preference)
 
 
-```bash
+## Docker Desktop for Linux
 
-```
+[Follow me to install docker on linux platform](https://docs.docker.com/desktop/install/linux-install/).
+
+
+## Docker Desktop for Mac
+[Follow me to install docker on Mac](https://docs.docker.com/desktop/install/mac-install/)
+
+
 
 
 # References
@@ -28,6 +34,8 @@ Follow below steps to complete the docker desktop installation:
 - https://docs.docker.com/desktop/install/windows-install/
 - https://docs.docker.com/desktop/wsl/
 - https://kind.sigs.k8s.io/docs/user/using-wsl2/
+- https://docs.docker.com/desktop/install/linux-install/
+- https://docs.docker.com/desktop/install/mac-install/
 
 
 # Appendix
