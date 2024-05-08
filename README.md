@@ -3,6 +3,7 @@
 - [2. Install Docker Desktop](#2-install-docker-desktop)
 - [3. Install Kind](#3-install-kind)
 - [4. Create a Kubernetes Cluster](#4-create-a-kubernetes-cluster)
+- [Kuberenetes Applications](#kuberenetes-applications)
 - [5. Entend Kubernetes Cluster Capabilites](#5-entend-kubernetes-cluster-capabilites)
   - [5.1. MetalLB](#51-metallb)
   - [5.2. Ingress](#52-ingress)
@@ -36,6 +37,10 @@ A number of lightweight tools are available that support a [Kubernetes](https://
 
 - [Kind Cluster Management](./installation/kind/kind-cluster-management.md)
 
+
+# Kuberenetes Applications
+- [Kuberenetes Applications](./docs/kubernetes-applications/README.md)
+  - [A Simple Web Application Server in Kubernetes](./docs/kubernetes-applications/first-simple-application/README.md)
 
 
 # 5. Entend Kubernetes Cluster Capabilites
