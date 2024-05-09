@@ -6,6 +6,4 @@
 # 1. Kuberenetes Applications
 - [Kuberenetes Applications](./kubernetes-applications/README.md)
 
-
-
 # 2. References
