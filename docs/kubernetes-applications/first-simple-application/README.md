@@ -1,8 +1,8 @@
 # First Simple Web Application Server in Kubernetes Cluster
 
-First create a yaml defintion file for a nginx webserver.
+First create [a yaml defintion file](./web.yaml) for a nginx webserver.
 ```bash
-kubectl run web --name nginx --dry-run=client -o yaml > web.yaml
+kubectl run web --image nginx --dry-run=client -o yaml > web.yaml
 ```
 
 Now create nginx web server in kubernetes cluster:
@@ -17,7 +17,7 @@ kubectl get pod
 
 Now a create service defintion file in yaml:
 ```bash
-kubectl expose pod web --port 80 --dry-run=client -o yaml > web-svc.yaml
+kubectl expose pod web --name web-svc --port 80 --dry-run=client -o yaml >web-svc.yaml
 ```
 
 Now create kubernetes service for the created application:
@@ -33,6 +33,16 @@ kubectl get svc
 # check endpoint
 kubectl get ep
 ```
+
+Now forward port to check webserver content from host laptop/pc:
+```bash
+k port-forward services/web-svc 9090:80
+```
+
+Now check webserver content using curl or a web browser:
+- curl http://localhost:9090/
+- curl -I http://localhost:9090/
+- http://localhost:9090/
 
 
 
