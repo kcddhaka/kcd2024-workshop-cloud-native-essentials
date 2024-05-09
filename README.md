@@ -50,6 +50,7 @@ A number of lightweight tools are available that support a [Kubernetes](https://
 # 5. Kuberenetes Applications
 - [Kuberenetes Applications](./docs/kubernetes-applications/README.md)
   - [A Simple Web Application Server in Kubernetes](./docs/kubernetes-applications/first-simple-application/README.md)
+  - [A wordpress apllication with Persistence MySQL Database](./docs/kubernetes-applications/wordpress-application/READEME.md)
 
 
 
