@@ -4,7 +4,8 @@
   - [1.2. Kind on MAC-OS](#12-kind-on-mac-os)
   - [1.3. Kind on Windows](#13-kind-on-windows)
   - [1.4. Kind on Linux](#14-kind-on-linux)
-  - [1.5. Bash Auto Complete](#15-bash-auto-complete)
+  - [1.5. Kubectl Install](#15-kubectl-install)
+  - [1.6. Bash Auto Complete](#16-bash-auto-complete)
 - [2. References](#2-references)
 
 
@@ -57,9 +58,22 @@ chmod +x ./kind
 sudo mv ./kind /usr/local/bin/kind
 ```
 
+## 1.5. Kubectl Install
 
+```bash
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+   
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
+echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check   
+sudo install kubectl /usr/local/bin/kubectl
+kubectl version --client --output yaml
 
-## 1.5. Bash Auto Complete
+```
+
+Ref:
+- https://kubernetes.io/docs/tasks/tools/
+
+## 1.6. Bash Auto Complete
 
 ```bash
 source <(kubectl completion bash)

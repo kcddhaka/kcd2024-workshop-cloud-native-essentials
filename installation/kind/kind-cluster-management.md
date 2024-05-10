@@ -22,6 +22,7 @@ Pre-requisite:
 In command, a kubernetes cluster can be created with below command.
 ```bash
 kind create cluster
+kind create cluster --name dev
 ```
 
 ## 1.3. Create Kubernetes in CLI Using a Config file
