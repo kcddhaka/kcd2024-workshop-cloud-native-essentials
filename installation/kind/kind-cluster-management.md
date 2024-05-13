@@ -67,18 +67,25 @@ Ref:
 
 ## 1.5. Delete a Kubernetes Cluster
 
+First, get list of available cluster in your laptop/pc:
 ```bash
 % kind get clusters     
 dev
 kind
 ```
 
+Now delete a kind cluster with a name arguments:
 ```bash
-kind delete cluster -n dev
+kind delete cluster --name dev
 Deleting cluster "dev" ...
 Deleted nodes: ["dev-control-plane"]
 ```
 
+Now check cluster list again:
+```bash
+% kind get clusters                       
+kind
+```
 
 
 
